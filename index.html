@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emerald Learning Centre</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p>✨ EST. 2010 • IELTS • CEFR • Kids English • General English</p>
+      <a class="topbar-link" href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <div class="brand-logo">
+       
+          <img src="logo.jpg" alt="Emerald Learning Centre Logo">
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">EMERALD</span>
+          <span class="brand-sub">Learning Centre</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#why">Nega aynan "Emerald"?</a>
+        <a href="#courses">Kurslar</a>
+        <a href="#results">Natijalar</a>
+        <a href="#teachers">O'qituvchilar</a>
+        <a href="#vacancies">Vakansiyalar</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Bog'lanish</a>
+
+         <a href="https://emerald-lc.modme.uz/dashboard/default" class="teacher-link" target="_blank" rel="noopener noreferrer">
+    Modme
+  </a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="#placement">Daraja aniqlash testi</a>
+        <a class="btn btn-primary" href="#lead">Bepul sinov darsi</a>
+
+        <button class="burger" id="burger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-left reveal">
+        <div class="badge">
+          <span class="dot"></span>
+          O‘zbekistonda premium darajadagi ingliz tili ta’limi
+        </div>
+
+        <h1>
+
+          <span class="gold">Emerald</span> - ishonch bilan ingliz tilini o‘rganing.
+        </h1>
+
+        <p class="hero-subtitle">
+         Umumiy ingliz tili • Bolalar uchun ingliz tili • IELTS tayyorgarligi • CEFR kurslari.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg" href="#lead">
+           Bepul sinov darsiga yoziling
+          </a>
+          <a class="btn btn-soft btn-lg" href="#courses">
+            Kurslarni ko‘rib chiqing
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <h3>2010</h3>
+            <p>Tashkil etilgan</p>
+          </div>
+          <div class="stat-card">
+            <h3>50+</h3>
+            <p>Malakali o‘qituvchilar</p>
+          </div>
+          <div class="stat-card">
+            <h3>1500+</h3>
+            <p>Talabalar</p>
+          </div>
+        </div>
+
+        
+      <div class="branches reveal">
+  <h3 class="branches-title">Bizning filiallar</h3>
+
+  <div class="branches-grid">
+    <a class="branch-card" href="https://maps.app.goo.gl/5ZQKiGCPHty2e9TXA" target="_blank" rel="noopener noreferrer">
+      <img src="branches/branch-1.jpg" alt="Emerald филиал 1">
+      <div class="branch-overlay">
+        <div class="branch-name">Emerald — CHDPU</div>
+        <div class="branch-address">Himposiyolok, Chirchiq, Tashkent, O‘zbekiston</div>
+      </div>
+    </a>
+
+    <a class="branch-card" href="https://maps.app.goo.gl/3WcgD73UAdw6YGGs7?g_st=ic" target="_blank" rel="noopener noreferrer">
+      <img src="branches/branch-2.jpg" alt="Emerald филиал 2">
+      <div class="branch-overlay">
+        <div class="branch-name">Emerald — Okkovok</div>
+        <div class="branch-address">Okkovok, Chirchiq, Tashkent, O‘zbekiston</div>
+      </div>
+    </a>
+
+    <a class="branch-card" href="https://maps.app.goo.gl/QrqG9x2sBy1vxtBT6?g_st=ic">
+      <img src="branches/branch-3.jpg" alt="Emerald филиал 3">
+      <div class="branch-overlay">
+        <div class="branch-name">Emerald — Hokimiyat</div>
+        <div class="branch-address">Hokimiyat, Chirchiq, Tashkent, O‘zbekiston</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+      </div>
+
+
+      <div class="hero-right reveal">
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <h3>Konsultatsiya oling</h3>
+            <p>Sizga mos, eng to‘g‘ri kurs darajasini tanlashga yordam beramiz.</p>
+          </div>
+
+          <form class="mini-form" id="miniForm">
+            <label>
+              To‘liq ism-familiya
+              <input type="text" name="name" placeholder="To‘liq ism-familiya" required />
+            </label>
+
+            <label>
+             Telefon raqam
+              <input type="tel" name="phone" placeholder="+998 XX XXX XX XX" required />
+            </label>
+
+            <label>
+             Qaysi kurs qiziqtiradi?
+              <select name="interest" required>
+                <option value="" disabled selected>Tanlang</option>
+                <option>Umumiy ingliz tili</option>
+                <option>Bolalar uchun ingliz tili</option>
+                <option>IELTS</option>
+                <option>CEFR</option>
+              </select>
+            </label>
+
+            <button class="btn btn-primary btn-full" type="submit">
+             Yuborish
+            </button>
+
+            <p class="form-note">
+             Yuborish orqali siz Emerald Learning Centre siz bilan bog‘lanishiga rozilik bildirasiz.
+            </p>
+          </form>
+        </div>
+
+        <div class="glass-info">
+          <div class="glass-item">
+            <span class="icon">🎓</span>
+            <div>
+              <h4>Malakali o‘qituvchilar</h4>
+              <p>IELTS va CEFR bo‘yicha mutaxassislar, zamonaviy o‘qitish usullari.</p>
+            </div>
+          </div>
+          <div class="glass-item">
+            <span class="icon">📊</span>
+            <div>
+              <h4>Progress kuzatuvi</h4>
+              <p>Testlar, fikr-mulohaza va aniq rivojlanish tizimi.</p>
+            </div>
+          </div>
+          <div class="glass-item">
+            <span class="icon">🧠</span>
+            <div>
+              <h4>Gapirish amaliyoti</h4>
+              <p>Har hafta ishonchingizni oshiramiz.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="trusted">
+    <div class="container trusted-inner reveal">
+      <p>Sifatli ta’lim va real natijani istaydigan o‘quvchilar hamda ota-onalar ishonchini qozongan.</p>
+      <div class="trusted-tags">
+        <span>✅ Premium darslar</span>
+        <span>✅ Samimiy muhit</span>
+        <span>✅ Qattiq intizom</span>
+        <span>✅ Natijaga yo‘naltirilgan</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Nega aynan Emerald?</h2>
+        <p>
+         Biz shunchaki darslar emas — haqiqiy rivojlanish uchun yaratilgan to‘liq o‘quv tizimimiz.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">🏆</div>
+          <h3>Premium o‘qitish tizimi</h3>
+          <p>Tizimli dastur, aniq maqsadlar va kuchli intizom.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon">📈</div>
+          <h3>Haftalik progress hisobotlari</h3>
+          <p>Doimiy testlar, speaking nazorati va natijaga asoslangan fikr-mulohaza.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon">🧑‍🏫</div>
+          <h3>Tajribali o‘qituvchilar</h3>
+          <p>Imtihon tajribasiga ega, zamonaviy metodika bilan ishlaydigan malakali o‘qituvchilar.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon">🧩</div>
+          <h3>Shaxsiylashtirilgan darajalar</h3>
+          <p>Daraja testi → sizga mos guruh darajasi → tezroq rivojlanish.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon">🌍</div>
+          <h3>Offline va online variantlar</h3>
+          <p>Markazda o‘qishingiz yoki kerak bo‘lsa darslarga masofadan turib qo‘shilishingiz mumkin.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon">💬</div>
+          <h3>Speaking klublar</h3>
+          <p>Ishonch va ravonlikni oshirish uchun qo‘shimcha amaliy mashg‘ulotlar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="section alt" id="courses">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Bizning kurslarimiz</h2>
+        <p>Darajangiz va maqsadingizga mos eng yaxshi yo‘lni tanlang.</p>
+      </div>
+
+      <div class="courses-grid">
+        <article class="course-card reveal">
+          <div class="course-top">
+            <h3>Umumiy ingliz tili</h3>
+            <span class="pill">A1 → C1</span>
+          </div>
+          <p>
+           Tizimli darslar orqali speaking, grammatika, lug‘at, tinglab tushunish va ishonchingizni oshiring.
+          </p>
+          <ul class="course-list">
+            <li>Har bir darsda speaking amaliyoti</li>
+            <li>Zamonaviy darsliklar va materiallar</li>
+            <li>Doimiy testlar</li>
+          </ul>
+          <a class="btn btn-soft btn-full" href="#lead">Umumiy ingliz kursiga qo‘shiling</a>
+        </article>
+
+        <article class="course-card reveal">
+          <div class="course-top">
+            <h3>Bolalar uchun ingliz tili</h3>
+            <span class="pill">6–14 yosh</span>
+          </div>
+          <p>
+          Qiziqarli darslar va intizomning mukammal uyg‘unligi. Kelajak uchun mustahkam poydevor yaratadigan interaktiv ta’lim.
+          </p>
+          <ul class="course-list">
+            <li>O‘yinlar va speaking mashg‘ulotlari</li>
+            <li>Uy vazifalarida yordam</li>
+            <li>Ota-onalar uchun fikr-mulohaza tizimi</li>
+          </ul>
+          <a class="btn btn-soft btn-full" href="#lead">Bolalar uchun ingliz kursiga qo‘shiling</a>
+        </article>
+
+        <article class="course-card highlight reveal">
+          <div class="course-top">
+            <h3>IELTS tayyorgarligi</h3>
+            <span class="pill gold-pill">Natijaga yo‘naltirilgan</span>
+          </div>
+          <p>
+           Kuchli strategiya va intensiv amaliyot. Writing tekshiruvi, speaking sinov imtihonlari va real rivojlanish.
+          </p>
+          <ul class="course-list">
+            <li>Mock testlar va band bo‘yicha fikr-mulohaza</li>
+            <li>Writing topshiriqlarini tekshirish</li>
+            <li>Speaking simulyatsiyalari</li>
+          </ul>
+          <a class="btn btn-primary btn-full" href="#lead">IELTS kursiga qo‘shiling</a>
+        </article>
+
+        <article class="course-card reveal">
+          <div class="course-top">
+            <h3>CEFR tayyorgarligi</h3>
+            <span class="pill">Milliy imtihon</span>
+          </div>
+          <p>
+           CEFR imtihon formatiga mos tayyorgarlik: amaliy topshiriqlar va strategiya mashg‘ulotlari bilan.
+          </p>
+          <ul class="course-list">
+            <li>CEFR formatida to‘liq amaliyot</li>
+            <li>Grammatika va lug‘atga e’tibor</li>
+            <li>Imtihon texnikasi</li>
+          </ul>
+          <a class="btn btn-soft btn-full" href="#lead">CEFR kursiga qo‘shiling</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="results">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>O‘quvchilar natijalari</h2>
+        <p>Haqiqiy hikoyalar, haqiqiy rivojlanish. Sizning muvaffaqiyatingiz — bizning obro‘yimiz.</p>
+      </div>
+
+      <div class="results-grid">
+        <div class="result-card reveal">
+          <div class="result-number">7.5</div>
+          <h3>IELTS balli</h3>
+          <p>O‘quvchilar muntazam tayyorgarlik va fikr-mulohaza orqali o‘z maqsad ballariga erishishadi.</p>
+        </div>
+
+        <div class="result-card reveal">
+          <div class="result-number">B2</div>
+          <h3>CEFR Daraja</h3>
+          <p>Kuchli tizim o‘quvchilarga CEFR imtihonidan ishonch bilan o‘tishga yordam beradi.</p>
+        </div>
+
+        <div class="result-card reveal">
+          <div class="result-number">+90%</div>
+          <h3>Rivojlanish darajasi</h3>
+          <p>Har haftalik speaking va testlar barqaror rivojlanishni ta’minlaydi.</p>
+        </div>
+      </div>
+
+      <div class="testimonial reveal">
+        <div class="testimonial-left">
+          <h3>O‘quvchilar nima deydi</h3>
+          <p>
+            “Emerald menga speaking va writingimni yaxshilashga yordam berdi. Fikr-mulohaza tizimi juda kuchli. Nihoyat maqsad ballimga erishdim!”
+          </p>
+          <div class="testimonial-meta">
+            <span class="avatar">A</span>
+            <div>
+              <strong>O‘quvchi fikri</strong>
+              <small>IELTS tayyorgarligi</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-right">
+          <div class="quote-card">
+            <p class="quote">
+             “O‘qituvchilar juda tushunarli qilib tushuntirishadi, darslar tartibli, va biz doim speaking mashq qilamiz.”
+            </p>
+            <div class="quote-foot">
+              <span class="star">★★★★★</span>
+              <small>Tasdiqlangan fikr-mulohaza</small>
+            </div>
+          </div>
+
+          <div class="quote-card">
+            <p class="quote">
+              “Farzandim darslarni yoqtiradi va men har oy real rivojlanishni ko‘ryapman.”
+            </p>
+            <div class="quote-foot">
+              <span class="star">★★★★★</span>
+              <small>Ota-ona fikri</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="results-carousel">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>IELTS va CEFR natijalari</h2>
+      <p>Haqiqiy sertifikatlar va real natijalar — o‘quvchilarimizning yutuqlari.</p>
+    </div>
+
+    <div class="results-slider reveal">
+      <button class="slide-btn left" id="slidePrev" aria-label="Previous">‹</button>
+
+      <div class="slides" id="slidesTrack">
+ 
+        <div class="result-card">
+          <img src="results/card1.jpg" alt="IELTS result 8.5">
+          <div class="score-badge">7.0</div>
+        </div>
+
+  
+        <div class="result-card">
+          <img src="results/IELTS2.jpg" alt="IELTS result 7.5">
+          <div class="score-badge">8.0</div>
+        </div>
+
+      
+        <div class="result-card">
+          <img src="results/IELTS3.jpg" alt="IELTS result 8.0">
+          <div class="score-badge">8.0</div>
+        </div>
+
+        <div class="result-card">
+          <img src="results/IELTS4.jpg" alt="IELTS result 6.5 ">
+          <div class="score-badge">6.5</div>
+        </div>
+        
+         <div class="result-card">
+          <img src="results/CEFR1.jpg" alt="IELTS result 8.0">
+          <div class="score-badge">C1</div>
+        </div>
+
+         <div class="result-card">
+          <img src="results/CEFR2.jpg" alt="IELTS result 8.0">
+          <div class="score-badge">C1</div>
+        </div>
+        
+         <div class="result-card">
+          <img src="results/CEFR3.jpg" alt="IELTS result 8.0">
+          <div class="score-badge">C1</div>
+        </div>
+
+         <div class="result-card">
+          <img src="results/CEFR4.jpg" alt="IELTS result 8.0">
+          <div class="score-badge">C1</div>
+        </div>
+
+         <div class="result-card">
+          <img src="results/CEFR5.jpg" alt="IELTS result 8.0">
+          <div class="score-badge">C1</div>
+        </div>
+
+         <div class="result-card">
+          <img src="results/CEFR6.jpg" alt="IELTS result 8.0">
+          <div class="score-badge">C1</div>
+        </div>
+
+         <div class="result-card">
+          <img src="results/CEFR6.jpg" alt="IELTS result 8.0">
+          <div class="score-badge">C1</div>
+        </div>
+
+         <div class="result-card">
+          <img src="results/CEFR7.jpg" alt="IELTS result 8.0">
+          <div class="score-badge">C1</div>
+        </div>
+        
+        <div class="result-card">
+          <img src="results/4.jpg" alt="IELTS result 7.0">
+          <div class="score-badge">7.0</div>
+        </div>
+
+
+      </div>
+
+      <button class="slide-btn right" id="slideNext" aria-label="Next">›</button>
+    </div>
+  </div>
+</section>
+
+
+<section class="section alt" id="teachers">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>O‘qituvchilarimiz bilan tanishing</h2>
+      <p>Sizning rivojlanishingizni bosqichma-bosqich yo‘naltirib boradigan professional o‘qituvchilar.</p>
+    </div>
+
+    <div class="teachers-grid">
+
+       <div class="teacher-card reveal">
+        <img src="teacher/muxlisa.jpg" alt="Miss Muxlisa" class="teacher-photo"/>
+        <h3>Miss Muxlisa</h3>
+        <p class="teacher-role">CEO</p>
+        <div class="teacher-tags">
+          <span>Leadership</span>
+          <span>Quality assurance</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/nodira.jpg" alt="Miss Nodira" class="teacher-photo"/>
+        <h3>Miss Nodira</h3>
+        <p class="teacher-role">IELTS/CEFR mutaxassisi</p>
+        <div class="teacher-tags">
+          <span>Writing feedback</span>
+          <span>Mock speaking</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/mashhura.jpg" alt="Miss Mashhura" class="teacher-photo"/>
+        <h3>Miss Mashhura</h3>
+        <p class="teacher-role">IELTS/CEFR mutaxassisi</p>
+        <div class="teacher-tags">
+          <span>Grammar system</span>
+          <span>Exam strategy</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/navruza.jpg" alt="Miss Navruza" class="teacher-photo"/>
+        <h3>Miss Navruza</h3>
+        <p class="teacher-role">General English</p>
+        <div class="teacher-tags">
+          <span>Interactive Learning</span>
+          <span>Fun discipline</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/sevinch.jpg" alt="Miss Sevinch" class="teacher-photo"/>
+        <h3>Miss Sevinch</h3>
+        <p class="teacher-role">IELTS/General English</p>
+        <div class="teacher-tags">
+          <span>Real life English</span>
+          <span>Conversation practice</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/sevara.jpg" alt="Miss Sevara" class="teacher-photo"/>
+        <h3>Miss Sevara</h3>
+        <p class="teacher-role">General English</p>
+        <div class="teacher-tags">
+          <span>Speaking Confidence</span>
+          <span>Vocabulary Building</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/nasiba.jpg" alt="Miss Nasiba" class="teacher-photo"/>
+        <h3>Miss Nasiba</h3>
+        <p class="teacher-role">General English</p>
+        <div class="teacher-tags">
+          <span>Fluency training</span>
+          <span>Confidence boost</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/Gulhayo.jpg" alt="Miss Gulhayo" class="teacher-photo"/>
+        <h3>Miss Gulhayo</h3>
+        <p class="teacher-role">Kids English</p>
+        <div class="teacher-tags">
+          <span>Interactive games</span>
+          <span>Creative Learning</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+       <img src="teacher/Zulhumor.jpg" alt="Miss Zulhumor" class="teacher-photo"/>
+        <h3>Miss Zulhumor</h3>
+        <p class="teacher-role">General English</p>
+        <div class="teacher-tags">
+          <span>Step-by-step lessons</span>
+          <span>Easy grammar</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/Behruz.jpg" alt="Mr Behruz" class="teacher-photo"/>
+        <h3>Mr Behruz</h3>
+        <p class="teacher-role">General English</p>
+        <div class="teacher-tags">
+          <span>Grammar system</span>
+          <span>Exam strategy</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/donoxol.jpg" alt="Miss Donoxol" class="teacher-photo"/>
+        <h3>Miss Donoxol</h3>
+        <p class="teacher-role">General English</p>
+        <div class="teacher-tags">
+          <span>Qualified</span>
+          <span>Motivating</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/soxibaxon.jpg" alt="Miss Soxibaxon" class="teacher-photo"/>
+        <h3>Miss Soxibaxon</h3>
+        <p class="teacher-role">IELTS/CEFR</p>
+        <div class="teacher-tags">
+          <span>Experienced</span>
+          <span>Skilled</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/begzod.jpg" alt="Mr Begzod" class="teacher-photo"/>
+        <h3>Mr Begzod</h3>
+        <p class="teacher-role">General English</p>
+        <div class="teacher-tags">
+          <span>Friendly</span>
+          <span>Supportive</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/javohir.jpg" alt="Mr Javohir" class="teacher-photo"/>
+        <h3>Mr Javohir</h3>
+        <p class="teacher-role">CEFR/General English</p>
+        <div class="teacher-tags">
+          <span>Result-driven</span>
+          <span>Speaking-focused</span>
+        </div>
+      </div>
+
+      <div class="teacher-card reveal">
+        <img src="teacher/sabina.jpg" alt="Miss Sabina" class="teacher-photo"/>
+        <h3>Miss Sabina</h3>
+        <p class="teacher-role">General English</p>
+        <div class="teacher-tags">
+          <span>Student-centered</span>
+          <span>Clear explanation</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="vacancies">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>Vakansiyalar</h2>
+      <p>Emerald jamoasiga qo‘shiling — biz doim malakali va motivatsiyali o‘qituvchilarni izlaymiz.</p>
+    </div>
+
+    <div class="vacancy-box reveal">
+      <div class="vacancy-left">
+        <h3>Ishga ariza topshirish</h3>
+        <p class="muted">
+          Agar siz ingliz tili o‘qituvchisi bo‘lsangiz yoki tajribaga ega bo‘lib,
+          professional jamoada ishlashni xohlasangiz — ariza qoldiring.
+        </p>
+
+        <div class="vacancy-points">
+          <div>✅ Barqaror o‘quv tizimi</div>
+          <div>✅ O‘sish va treninglar</div>
+          <div>✅ Do‘stona muhit</div>
+          <div>✅ Motivatsion ish sharoiti</div>
+        </div>
+      </div>
+
+      <div class="vacancy-right">
+        <h3>Ariza formasi</h3>
+        <p class="muted">
+          Tugmani bosing va Google formani to‘ldiring.
+        </p>
+
+        <a class="btn btn-primary btn-full" href="https://forms.gle/nVkhALXh4ErZRgKk6" target="_blank" rel="noopener noreferrer">
+          Ariza topshirish
+        </a>
+
+        <p class="form-note">
+          Arizangiz ko‘rib chiqilgach, siz bilan bog‘lanamiz.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+  <section class="section" id="placement">
+    <div class="container">
+      <div class="placement reveal">
+        <div class="placement-left">
+          <h2>Bepul daraja aniqlash testi</h2>
+          <p>
+         Qaysi darajaga qo‘shilishni bilmayapsizmi? Tezkor daraja testidan o‘ting — biz sizga eng mos kursni tavsiya qilamiz.
+          </p>
+          <div class="placement-buttons">
+            <a class="btn btn-primary" href="https://forms.gle/hrUMGyGsGqX8LsTx5">Testni boshlash</a>
+            <a class="btn btn-soft" href="#courses">Kurslarni ko‘rish</a>
+          </div>
+        </div>
+
+        <div class="placement-right">
+          <div class="placement-box">
+            <h3>Nimalarga ega bo‘lasiz</h3>
+            <ul>
+              <li>✅ To‘g‘ri daraja bo‘yicha tavsiya</li>
+              <li>✅ O‘qish rejasi bo‘yicha maslahat</li>
+              <li>✅ Kurs va jadval bo‘yicha yo‘l-yo‘riq</li>
+              <li>✅ Bepul konsultatsiya</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section alt" id="lead">
+    <div class="container">
+      <div class="lead-grid reveal">
+        <div class="lead-left">
+          <h2>Emerald bilan o‘z yo‘lingizni boshlang</h2>
+          <p>
+           Ma’lumotlaringizni yuboring — jamoamiz tez orada siz bilan bog‘lanadi.
+          </p>
+
+          <div class="lead-benefits">
+            <div class="benefit">
+              <span>⚡</span>
+              <div>
+                <strong>Tezkor javob</strong>
+                <small>Imkon qadar tezroq siz bilan bog‘lanamiz.</small>
+              </div>
+            </div>
+            <div class="benefit">
+              <span>🎯</span>
+              <div>
+                <strong>Maqsadga yo‘naltirilgan o‘qish</strong>
+                <small>IELTS / CEFR / speaking bo‘yicha ishonch</small>
+              </div>
+            </div>
+            <div class="benefit">
+              <span>💎</span>
+              <div>
+                <strong>Premium tajriba</strong>
+                <small>Qulay darslar va sifatli ta’lim</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="lead-right">
+          <form class="lead-form" id="leadForm">
+            <h3>Bepul sinov darsiga ro‘yxatdan o‘tish</h3>
+
+            <div class="form-row">
+              <label>
+               To‘liq ism-familiya
+                <input type="text" name="fullName" placeholder="To‘liq ism-familiya" required />
+              </label>
+
+              <label>
+               Telefon raqami
+                <input type="tel" name="phone" placeholder="+998 XX XXX XX XX" required />
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Kursni tanlang
+                <select name="course" required>
+                  <option value="" disabled selected>Kursni tanlang</option>
+                  <option>Umumiy ingliz tili</option>
+                  <option>Bolalar uchun ingliz tili</option>
+                  <option>IELTS tayyorgarligi</option>
+                  <option>CEFR tayyorgarligi</option>
+                </select>
+              </label>
+
+              <label>
+               Qulay format
+                <select name="format" required>
+                  <option value="" disabled selected>Tanlang</option>
+                  <option>Oflayn</option>
+                  <option>Onlayn</option>
+                  <option>Aralash (online + oflayn)</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+             Xabar (ixtiyoriy)
+              <textarea name="message" rows="4" placeholder="Savollaringiz bormi?"></textarea>
+            </label>
+
+            <button class="btn btn-primary btn-full" type="submit">
+          Arizani yuborish
+            </button>
+
+            <p class="form-note">
+              ✅ Ariza yuborilgandan so‘ng, darajangiz va jadvalingizni tasdiqlab beramiz.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Ko‘p beriladigan savollar</h2>
+        <p>Emeraldga qo‘shilishdan oldin bilishingiz kerak bo‘lgan barcha ma’lumotlar.</p>
+      </div>
+
+      <div class="faq-grid reveal">
+        <button class="faq-item">
+          <span>O‘z darajamni qanday bilaman?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+        Sizga eng mos darajani tavsiya qilish uchun bepul daraja testi va konsultatsiya taqdim etamiz.
+        </div>
+
+        <button class="faq-item">
+          <span>Bepul sinov darsi bormi?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          Ha ✅ Formani yuboring — biz sizga bepul sinov darsini belgilab beramiz.
+        </div>
+
+        <button class="faq-item">
+          <span>Onlayn darslaringiz bormi?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+         Ha. Kurs va guruh jadvaliga qarab onlayn va gibrid formatlarni ham taklif qilamiz.
+        </div>
+
+        
+        <button class="faq-item">
+          <span>Qaysi filialda eng yaxshi ustoz bor?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          Barcha filiallarda ustozlarimiz bir xil trening tizimi asosida o‘qitiladi va Head Teacher tomonidan nazorat qilinadi. Shuning uchun har bir filialdagi dars sifati bir xil darajada.
+        </div>
+
+          <button class="faq-item">
+          <span>Yoshga oid chegaralar mavjudmi?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+         Yoq. Har qanday yoshdagi o‘quvchilarni qabul qilamiz. Bolalar uchun alohida guruhlar mavjud.
+        </div>
+
+        
+          <button class="faq-item">
+          <span>Eng kechki darslar soat nechchigacha bo'ladi?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+        Eng kechki darslar soat 19:00 da boshlanadi, chunki o‘qituvchilarning ish jadvali va transport masalalari hisobga olingan.
+        </div>
+
+        <button class="faq-item">
+          <span>IELTS/CEFRga tayyorlanish qancha vaqt oladi?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+        Bu sizning hozirgi darajangiz va maqsad ballingizga bog‘liq. Daraja testidan so‘ng siz uchun reja tuzamiz.
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer" id="contact">
+    <div class="container footer-grid reveal">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="logo.jpg" alt="Emerald logo"/>
+        </div>
+        <h3>Emerald Learning Centre</h3>
+        <p>
+         O‘zbekistonda yuqori sifatli ingliz tili ta’limi.<br/>
+         Umumiy Ingliz Tili • Bolalar • IELTS • CEFR
+
+        </p>
+
+        <div class="social">
+          <a href="https://www.instagram.com/emerald_learning_centre?igsh=MXhmbXozb3h2MnViMA==" class="social-btn">Instagram</a>
+          <a href="https://t.me/EMERALD_call_center" class="social-btn">Telegram</a>
+          <a href="#" class="social-btn">Telefon</a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigatsiya</h4>
+        <a href="#home">Bosh sahifa</a>
+        <a href="#courses">Kurslar</a>
+        <a href="#results">Natijalar</a>
+        <a href="#teachers">O‘qituvchilar</a>
+        <a href="#lead">Bepul sinov darsi</a>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Bog‘lanish</h4>
+        <p><strong>Telefon raqam:</strong> +998 91 772 95 55</p>
+        <p><strong>Manzil:</strong> Chirchiq, Tashkent, Uzbekistan</p>
+        <p><strong>Ish vaqtlari:</strong> Dushanbadan-Shanbagacha 08:00–20:00</p>
+
+        <div class="map">
+        
+          <div class="map">
+  <iframe
+    src="https://maps.app.goo.gl/ZsewNVEvJ5RgtSmB8?g_st=ic"
+    width="100%"
+    height="250"
+    style="border:0; border-radius:14px;"
+    allowfullscreen=""
+    loading="lazy"
+  ></iframe>
+</div>
+<p>
+  <a href="https://maps.app.goo.gl/ZsewNVEvJ5RgtSmB8" target="_blank" class="btn btn-soft">
+    Open in Google Maps
+  </a>
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Emerald Learning Centre. All rights reserved. </p>
+                              <p>Done by Mukagali Suleymenov</p> 
+      <a href="#home" class="backtop">Yuqoriga qaytish↑</a>
+    </div>
+  </footer>
+
+
+  <div class="toast" id="toast">✅ Muvaffaqiyatli yuborildi!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
